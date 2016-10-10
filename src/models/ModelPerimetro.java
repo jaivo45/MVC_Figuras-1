@@ -10,5 +10,8 @@ package models;
  * @author DRAGKOZ
  */
 public class ModelPerimetro {
+    private double perimetro = 0.0;
+    private double base = 0.0;
+    private double altura = 0.0;
     
 }
