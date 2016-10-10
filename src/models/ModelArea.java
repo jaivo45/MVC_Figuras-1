@@ -47,4 +47,15 @@ public class ModelArea {
         this.altura = altura;
     }
     
+    public void aCuadrado(){
+        area = base * base;
+    }
+    
+    public void aRectangulo(){
+        area = base * altura;
+    }
+    
+    public void aTriangulo(){
+        area = (base * altura)/2;
+    }
 }
